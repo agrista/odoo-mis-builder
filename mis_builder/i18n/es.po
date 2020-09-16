@@ -1119,7 +1119,7 @@ msgstr "Plantillas de informe MIS"
 #. module: mis_builder
 #: model:ir.ui.menu,name:mis_builder.mis_report_conf_menu
 #: model:ir.ui.menu,name:mis_builder.mis_report_finance_menu
-msgid "MIS Reporting"
+msgid "MIS Reports"
 msgstr "MIS"
 
 #. module: mis_builder

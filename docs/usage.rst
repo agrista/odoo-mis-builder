@@ -45,7 +45,7 @@ Quick start: building a simple P&L report
 -----------------------------------------
 Create a Template Report
 ************************
-Menu accessible here: `Accounting > Configuration > MIS Reporting > MIS Reports Template`
+Menu accessible here: `Accounting > Configuration > MIS Reports > MIS Reports Template`
 
 Templates are the base of the reports, defining the KPI structure and calculation
 between the elements. They can be found in:
@@ -83,7 +83,7 @@ KPI details:
 
 Use the Template to create a new Report
 ***************************************
-Menu accessible here: `Accounting > Reports > MIS Reporting > MIS Reports`
+Menu accessible here: `Accounting > Reports > MIS Reports > MIS Reports`
 
 Once templates are created, you can use them to display the data for specific
 series and dates in order to display the data, compare them and calculate
@@ -295,7 +295,7 @@ In a reporting instance, the result is as follows:
 
 Styles
 ------
-Menu accessible here: `Accounting > Configuration > MIS Reporting > MIS Reports Style`
+Menu accessible here: `Accounting > Configuration > MIS Reports > MIS Reports Style`
 
 You can create multi-level styles which will be applied to the different lines of reporting:
 

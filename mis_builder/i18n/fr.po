@@ -1108,8 +1108,8 @@ msgstr "Modèles MIS Report"
 #. module: mis_builder
 #: model:ir.ui.menu,name:mis_builder.mis_report_conf_menu
 #: model:ir.ui.menu,name:mis_builder.mis_report_finance_menu
-msgid "MIS Reporting"
-msgstr "MIS Reporting"
+msgid "MIS Reports"
+msgstr "MIS Reports"
 
 #. module: mis_builder
 #: model:ir.actions.act_window,name:mis_builder.mis_report_instance_view_action
