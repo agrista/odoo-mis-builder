@@ -80,8 +80,16 @@
                                 <group>
                                     <field name="date" />
                                 </group>
-                                <group></group>
-                                <field name="period_ids" nolabel="1" colspan="4" attrs="{'required': [('comparison_mode', '=', True)]}" context="{'default_report_instance_id': id}">
+                                <group>
+
+                                </group>
+                                <field
+                                    name="period_ids"
+                                    nolabel="1"
+                                    colspan="4"
+                                    attrs="{'required': [('comparison_mode', '=', True)]}"
+                                    context="{'default_report_instance_id': id}"
+                                >
                                     <tree decoration-danger="not valid">
                                         <field name="sequence" widget="handle" />
                                         <field name="name" />
@@ -142,10 +150,37 @@
             </div>
             <sheet position="after">
                 <footer>
+<<<<<<< HEAD
                     <button type="object" name="save_report" string="Save" icon="fa-save" />
                     <button type="object" name="preview" string="Preview" icon="fa-search" />
                     <button type="object" name="print_pdf" string="Print" icon="fa-print" />
                     <button type="object" name="export_xls" string="Export" icon="fa-download" />
+=======
+                    <button
+                        type="object"
+                        name="save_report"
+                        string="Save"
+                        icon="fa-save"
+                    />
+                    <button
+                        type="object"
+                        name="preview"
+                        string="Preview"
+                        icon="fa-search"
+                    />
+                    <button
+                        type="object"
+                        name="print_pdf"
+                        string="Print"
+                        icon="fa-print"
+                    />
+                    <button
+                        type="object"
+                        name="export_xls"
+                        string="Export"
+                        icon="fa-download"
+                    />
+>>>>>>> upstream/13.0
                     or
                     <button string="Cancel" class="oe_link" special="cancel" />
                 </footer>
